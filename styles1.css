@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    height: 100%
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    background-color: rgb(57, 62, 70);
+    padding-top: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin: 0;
+    font-size: 8rem;
+    color: rgb(78, 204, 163);
+    text-shadow: rgb(35, 41, 49) 5px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically (if needed) */
+    gap: 400px;
+    /* Space between items */
+    margin-top: 100px;
+    flex-wrap: wrap;
+    /* Space between h1 and container */
+}
+
+.container2 {
+    display: flex;
+    margin-top: 30px;
+    gap: 220px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 40px;
+    background-color: red;
+    font-size: 2rem;
+    margin-top: 70px;
+
+
+    &:hover {
+        background-color: blue;
+        color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transform: translateY(-2px);
+    }
+}
